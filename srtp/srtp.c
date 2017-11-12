@@ -43,7 +43,9 @@
  */
 
 // Leave this as the top level import. Ensures the existence of defines
+#ifdef HAVE_CONFIG_H
 #include "config.h"
+#endif
 
 #include "srtp_priv.h"
 #include "crypto_types.h"
